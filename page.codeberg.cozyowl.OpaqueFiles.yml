@@ -19,12 +19,12 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D -m0555 opaquefiles /app/bin/opaquefiles
-      - install -D -m0555 OpaqueFiles/packaging/releases/opaquefiles-0.9.9.3.jar /app/share/opaquefiles.jar
+      - install -D -m0555 OpaqueFiles/packaging/releases/opaquefiles-0.9.9.4.jar /app/share/opaquefiles.jar
       - install -D -m0444 OpaqueFiles/documentation/design/page.codeberg.cozyowl.OpaqueFiles.svg /app/share/icons/hicolor/scalable/apps/page.codeberg.cozyowl.OpaqueFiles.svg
-      - install -D -m0644 OpaqueFiles/packaging/shared/page.codeberg.cozyowl.OpaqueFiles.desktop /app/share/applications/page.codeberg.cozyowl.OpaqueFiles.desktop
+      - install -D -m0644 OpaqueFiles/packaging/flatpak/page.codeberg.cozyowl.OpaqueFiles.desktop /app/share/applications/page.codeberg.cozyowl.OpaqueFiles.desktop
       - install -D -m0644 OpaqueFiles/packaging/shared/opaqueFiles.properties /etc/opaqueFiles.properties
       - install -D -m0644 OpaqueFiles/packaging/shared/opaquefiles.xml /app/share/mime/packages/page.codeberg.cozyowl.OpaqueFiles.xml
-      - install -D -m0644 OpaqueFiles/packaging/flatpak/page.codeberg.cozyowl.OpaqueFiles.metainfo.xml /app/share/metainfo/page.codeberg.cozyowl.OpaqueFiles.metainfo.xml
+      - install -D -m0644 OpaqueFiles/packaging/shared/page.codeberg.cozyowl.OpaqueFiles.metainfo.xml /app/share/metainfo/page.codeberg.cozyowl.OpaqueFiles.metainfo.xml
     sources:
       - type: script
         dest-filename: opaquefiles
