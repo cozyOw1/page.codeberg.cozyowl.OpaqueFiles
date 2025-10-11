@@ -32,5 +32,5 @@ modules:
           - exec java -XX:MaxRAMPercentage=75 -jar /app/share/opaquefiles.jar "$@"
       - type: git
         url: https://codeberg.org/cozyOwl/OpaqueFiles.git
-        commit: cbef6998dfcb2da7103d87f989003b7c8b87a2c0
+        commit: c6d3dd75dd6d204284ed52fc40eb0cd4abe86b2b
         dest: OpaqueFiles
